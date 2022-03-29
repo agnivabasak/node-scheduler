@@ -1,0 +1,24 @@
+{
+  "name": "node-scheduler",
+  "version": "1.0.0",
+  "description": "A scheduler which triggers a function at the specified date and time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "scheduler"
+  ],
+  "author": "Agniva Basak",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
